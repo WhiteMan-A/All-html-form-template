@@ -49,7 +49,10 @@ body {
     font-size: 1rem;
     font-style: normal;   
     background: hsl(var(--rc-accent),1); 
-    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 img {
@@ -142,16 +145,39 @@ label {
 } */
 .form-container {
     width: 37vw;
-    height: 93.2vh;
     background: var(--rc-white);
     margin: 0 auto;
-    padding: 1.5rem 3rem;
+    padding: 2.5rem 3rem;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-.brand-area {}
+.form-container {
+    height: 70vh;
+}
+
+.form-container--reg-with {
+    height: 80vh;
+}
+
+.form-container--login {
+    height: 73vh;
+}
+
+.form-container-pass-forgot {
+    height: 32vh;
+}
+
+.form-container--otp-verify-form {
+    height: 40vh;
+}
+
+.form-container-pass-forgot--resetpass {
+    height: 48vh;
+    text-align: center;
+}
+
 .brand-area a {
     display: flex;
     justify-content: center;
@@ -174,7 +200,6 @@ label {
     color: hsl(var(--rc-secondry), 1);
 } */
 
-.form-area {}
 .form-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -192,9 +217,10 @@ label {
     top: 32px;
 }
 .form-grp label {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.35rem;
     width: 100%;
     text-align: start;
+    font-weight: 600;
 }
 .form-grp input {
     width: 100%;
@@ -219,7 +245,7 @@ label {
     border: none;
     margin-right: 0.5rem;
 }
-.form-check-area label {}
+
 .terms-link {
     text-decoration: underline;
 }
@@ -229,8 +255,9 @@ label {
 
 .form-footer {
     text-align: center;
+    margin-top: 0.75rem;
 }
-.form-footer-text {}
+
 .login-link {
     text-decoration: underline;
 }
@@ -250,13 +277,13 @@ label {
     top: 7px;
 }
 .button-primary--reg-with {
-    margin-bottom: 1.2rem;
     color: var(--rc-white);
 }
 .form-footer-text--reg-with {
     text-align: center;
+    margin-top: 0.5rem;
 }
-.form-footer-area {}
+
 .divider {
     display: flex;
     justify-content: space-around;
@@ -267,7 +294,7 @@ label {
     width: 45%;
     opacity: 0.5;
 }
-.divider span {}
+
 .fb-login-button {
     display: flex;
     margin-bottom: 1rem;
@@ -330,7 +357,7 @@ label {
 }
 .divider-signin {
     margin: 0;
-    padding: 2.5rem 0rem;
+    padding: 1rem 0rem;
 }
 .divider-signin hr {
     opacity: 0.5;
@@ -338,18 +365,16 @@ label {
 
 /* =========================================================== */
 /* Forgot Password CSS */
-.form-container-pass-forgot {
-    height: inherit;
-    text-align: center;
-}
+
 .title-pass-forgot {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     color: hsl(var(--rc-secondry), 1);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 .text-pass-forgot,
 .text-reset-pass {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
     font-size: 1rem;
     text-transform: none;
 }
@@ -357,7 +382,7 @@ label {
 /* Rest Password CSS */
 
 .text-reset-pass {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem 0rem;
     background: hsl(var(--rc-accent), 0.2);
@@ -365,6 +390,13 @@ label {
     border-radius: 5px;
     font-weight: var(--fw-500);
     line-height: 1.5;
+}
+.text-otp-verify {
+    padding: 1rem 0.7rem;
+    text-align: center;
+}
+.text-otp-verify span {
+    display: block;
 }
 
 
