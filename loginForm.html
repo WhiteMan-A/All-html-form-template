@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- All CSS file link -->
+    <!-- Boxicons-v2.1.4 -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Registration Form Start Here -->
+    <div class="form-container">
+        <div class="form-area">
+            <div class="brand-area--reg-with">
+                <a href="#">
+                    <img class="brand" src="assets/img/brand-logo.png" alt="Brand-Logo">
+                    <h1 class="brand-name">Company Name</h1>
+                </a>
+                <!-- <a href="#"><img class="brand" src="assets/img/brand-logo.png" alt="Brand-Logo"></a> -->
+                <!-- <a href="#"><h1 class="brand">Brand Name</h1></a> -->
+            </div>
+            <form>
+                <h2 class="form-title">login</h2>
+                <div class="form-grp form-grp-signin">
+                    <input name="userEmail" type="email" required placeholder="Email">
+                </div>
+                <div class="form-grp form-grp-signin">
+                    <input name="userPassword" type="password" required placeholder="Password">
+                    <div class="pass-show-eye--signin">
+                        <span><i class='bx bx-show-alt bx-sm'></i></span>
+                        <!-- <i class='bx bxs-hide' ></i> -->
+                    </div>
+                </div>
+                <div class="pass-forgot-text"><a href="#">Forgot password?</a></div>
+                <button class="button button-primary--reg-with" type="submit" value="">login</button>
+                <p class="form-footer-text--reg-with">Don't have an account? <a href="#"><span class="login-link">Signup</span></a></p>
+            </form>
+        </div>
+
+        <div class="form-footer-area">
+            <div class="divider divider-signin">
+                <hr>
+                <span>Or</span>
+                <hr>
+            </div>
+            <div class="alt-signup-button">
+                <button class="button button-primary--reg-with fb-login-button" type="submit" value="">
+                    <span class="fb-icon"><i class='bx bxl-facebook bx-border-circle'></i></span>
+                    <span class="fb-signup-text">login with facebook</span>
+                </button>
+                <button class="button button-primary--reg-with google-login-button" type="submit" value="">
+                    <span class="google-icon"><img src="assets/img/Google_Icons-09-512.png" alt=""></span>
+                    <span class="google-signup-text">login with google</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+    <!-- All js file -->
+    <!-- Main js file -->
+    <script src="assets/js/min.js"></script>
+</body>
+
+</html>
