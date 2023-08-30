@@ -154,27 +154,27 @@ label {
     flex-direction: column;
 }
 .form-container {
-    height: 70vh;
+    height: 97vh;
 }
 
 .form-container--reg-with {
-    height: 80vh;
+    height: 98vh;
 }
 
 .form-container--login {
-    height: 73vh;
+    height: 92vh;
 }
 
 .form-container-pass-forgot {
-    height: 32vh;
-}
-
-.form-container--otp-verify-form {
     height: 40vh;
 }
 
+.form-container--otp-verify-form {
+    height: 51vh;
+}
+
 .form-container-pass-forgot--resetpass {
-    height: 48vh;
+    height: 60vh;
     text-align: center;
 }
 
